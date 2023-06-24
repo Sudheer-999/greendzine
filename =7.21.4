@@ -1,0 +1,62 @@
+Progress: resolved 0, reused 1, downloaded 0, added 0
+Progress: resolved 11, reused 11, downloaded 0, added 0
+Progress: resolved 12, reused 11, downloaded 0, added 0
+Progress: resolved 169, reused 168, downloaded 0, added 0
+Progress: resolved 170, reused 168, downloaded 0, added 0
+Progress: resolved 451, reused 449, downloaded 0, added 0
+ WARN  deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+ WARN  deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+ WARN  deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+Progress: resolved 800, reused 798, downloaded 0, added 0
+ WARN  deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+ WARN  deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+ WARN  deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+ WARN  deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+ WARN  deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+Progress: resolved 1211, reused 1209, downloaded 0, added 0
+Progress: resolved 1212, reused 1209, downloaded 0, added 0
+Progress: resolved 1217, reused 1215, downloaded 0, added 0
+Progress: resolved 1219, reused 1217, downloaded 1, added 0
+Packages: +2 -1
+++-
+Progress: resolved 1224, reused 1222, downloaded 1, added 2, done
+
+dependencies:
++ @testing-library/dom 9.3.1
+- @testing-library/user-event 13.5.0
++ @testing-library/user-event 13.5.0
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ @babel/plugin-proposal-private-property-in-object
+│ ├── ✕ missing peer @babel/core@^7.0.0-0
+│ ├─┬ @babel/helper-create-class-features-plugin
+│ │ └── ✕ missing peer @babel/core@^7.0.0
+│ └─┬ @babel/plugin-syntax-private-property-in-object
+│   └── ✕ missing peer @babel/core@^7.0.0-0
+├─┬ @babel/plugin-syntax-flow
+│ └── ✕ missing peer @babel/core@^7.0.0-0
+├─┬ @babel/plugin-transform-react-jsx
+│ ├── ✕ missing peer @babel/core@^7.0.0-0
+│ └─┬ @babel/plugin-syntax-jsx
+│   └── ✕ missing peer @babel/core@^7.0.0-0
+└─┬ react-scripts
+  ├── ✕ missing peer typescript@"^3.2.1 || ^4"
+  ├─┬ eslint-config-react-app
+  │ ├─┬ @typescript-eslint/eslint-plugin
+  │ │ ├── ✕ missing peer typescript@"*"
+  │ │ └─┬ @typescript-eslint/type-utils
+  │ │   ├── ✕ missing peer typescript@"*"
+  │ │   └─┬ @typescript-eslint/typescript-estree
+  │ │     ├── ✕ missing peer typescript@"*"
+  │ │     └─┬ tsutils
+  │ │       └── ✕ missing peer typescript@">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
+  │ └─┬ @typescript-eslint/parser
+  │   └── ✕ missing peer typescript@"*"
+  └─┬ react-dev-utils
+    └─┬ fork-ts-checker-webpack-plugin
+      └── ✕ missing peer typescript@">= 2.7"
+Peer dependencies that should be installed:
+  @babel/core@">=7.0.0 <8.0.0"
+  typescript@">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
+
